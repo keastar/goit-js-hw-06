@@ -12,3 +12,13 @@ const images = [
     alt: 'Group of Horses Running',
   },
 ];
+
+const GalleryEl = document.querySelector('.gallery');
+
+const ImageEl = document.createElement('img');
+ImageEl.src = 'https://images.pexels.com/photos/140134/pexels-photo-140134.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260';
+ImageEl.alt = 'White and Black Long Fur Cat';
+
+GalleryEl.insertAdjacentHTML('afterbegin', ImageEl);
+
+
