@@ -1,0 +1,23 @@
+{
+  "name": "goit",
+  "version": "1.0.0",
+  "description": "help file",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/keastar/goit-js-hw-06.git"
+  },
+  "author": "Elena Krapivnaya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/keastar/goit-js-hw-06/issues"
+  },
+  "homepage": "https://github.com/keastar/goit-js-hw-06#readme",
+  "devDependencies": {
+    "eslint": "^8.27.0",
+    "eslint-config-google": "^0.14.0"
+  }
+}
