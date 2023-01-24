@@ -21,4 +21,4 @@ function onInputBlur(event) {
         inputEl.classList.add('valid');
   }
     
-}
+};

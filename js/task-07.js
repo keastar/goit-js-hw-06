@@ -5,4 +5,4 @@ controlSizeEl.addEventListener('input', onInputChange);
 
 function onInputChange(event) {
     textEl.style.fontSize = event.currentTarget.value + "px";
-}
+};
